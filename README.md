@@ -10,8 +10,8 @@
 
 ## Setup
 
-`npm install gatsby-plugin-parameter-store-environment --save-dev`
-`yarn add gatsby-plugin-parameter-store-environment --dev`
+- `npm install gatsby-plugin-aws-parameter-store-environment --save-dev`
+- `yarn add gatsby-plugin-aws-parameter-store-environment --dev`
 
 ## How to use?
 
@@ -21,7 +21,7 @@ Use `AWS_SDK_LOAD_CONFIG=1` or configure AWS credentials via plugin options.
 
 ```javascript
 {
-  resolve: 'gatsby-plugin-parameter-store-environment',
+  resolve: 'gatsby-plugin-aws-parameter-store-environment',
   options: {
     aws: {
       region: 'eu-central-1'
