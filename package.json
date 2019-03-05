@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-plugin-aws-parameter-store-environment",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Gatsby plugin to map AWS parameter store paramters to environment variables at build time.",
+  "author": "Mike Bild <mike.bild@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "change-case": "^3.1.0",
+    "dotenv": "^6.2.0"
+  },
+  "repository": "https://github.com/mikebild/gatsby-plugin-parameter-store-environment",
+  "bugs": {
+    "url": "https://github.com/mikebild/gatsby-plugin-parameter-store-environment/issues"
+  },
+  "homepage": "https://github.com/mikebild/gatsby-plugin-parameter-store-environment/#readme",
+  "keywords": [
+    "gatsby-plugin",
+    "aws",
+    "parameter store",
+    "environment"
+  ]
+}
