@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-aws-parameter-store-environment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "Gatsby plugin to map AWS parameter store paramters to environment variables at build time.",
   "author": "Mike Bild <mike.bild@gmail.com>",
